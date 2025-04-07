@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/anna_/PycharmProjects/pythonProject3/kobe/mlflow_runs/449109977047084958/5515ea526ed64e128344b3984519bf3e/artifacts
+end_time: 1743958374510
+entry_point_name: ''
+experiment_id: '449109977047084958'
+lifecycle_stage: active
+run_id: 5515ea526ed64e128344b3984519bf3e
+run_name: __default__
+run_uuid: 5515ea526ed64e128344b3984519bf3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743958338318
+status: 3
+tags: []
+user_id: anna_

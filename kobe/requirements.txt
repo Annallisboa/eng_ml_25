@@ -1,0 +1,12 @@
+ipython>=8.10
+jupyterlab>=3.0
+kedro-datasets[pandas]
+kedro-viz>=6.7.0
+kedro[jupyter]~=0.19.12
+notebook
+pyarrow
+pycaret[models,mlops]
+setuptools; python_version >= "3.12"
+scikit-learn<1.5
+joblib==1.2
+

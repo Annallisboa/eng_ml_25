@@ -1,0 +1,9 @@
+target_column: "shot_made_flag"
+session_id: 1234
+
+lr_model_roc_filename: data/08_reporting/lr_model
+best_model_roc_filename: data/08_reporting/best_model
+
+model_uri: "file:///C:\Users\anna_\PycharmProjects\pythonProject3\kobe\mlflow_runs\449109977047084958\cdbb3af8487c497481b6d46e26972cf8\artifacts\model"
+
+

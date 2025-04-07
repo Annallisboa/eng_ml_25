@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1743961172159
+current_stage: None
+description: null
+last_updated_timestamp: 1743961172159
+name: kobe_dt_model
+run_id: cdbb3af8487c497481b6d46e26972cf8
+run_link: null
+source: file:///C:/Users/anna_/PycharmProjects/pythonProject3/kobe/mlflow_runs/449109977047084958/cdbb3af8487c497481b6d46e26972cf8/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/anna_/PycharmProjects/pythonProject3/kobe/mlflow_runs/449109977047084958/cdbb3af8487c497481b6d46e26972cf8/artifacts/model
+user_id: null
+version: 3

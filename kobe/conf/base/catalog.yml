@@ -1,0 +1,51 @@
+kobe_dev:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/dataset_kobe_dev.parquet
+
+kobe_prod:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/dataset_kobe_prod.parquet
+
+data_filtered:
+  type: pandas.ParquetDataset
+  filepath: data/04_feature/data_filtered.parquet
+
+train:
+  type: pandas.ParquetDataset
+  filepath: data/04_feature/train.parquet
+
+test:
+  type: pandas.ParquetDataset
+  filepath: data/04_feature/test.parquet
+
+lr_model:
+  type: kedro_mlflow.io.models.MlflowModelTrackingDataset
+  flavor: mlflow.sklearn
+  save_args:
+    registered_model_name: kobe_lr_model
+    #pyfunc_predict_fn: predict_proba
+dt_model:
+  type: kedro_mlflow.io.models.MlflowModelTrackingDataset
+  flavor: mlflow.sklearn
+  save_args:
+    registered_model_name: kobe_dt_model
+
+best_model:
+  type: kedro_mlflow.io.models.MlflowModelTrackingDataset
+  flavor: mlflow.sklearn
+  save_args:
+    registered_model_name: kobe_best_model
+
+lr_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsHistoryDataset
+
+model_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsHistoryDataset
+
+prod_data:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/prod_data.csv
+
+avaliacao_prod:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/avaliacao_prod.csv
