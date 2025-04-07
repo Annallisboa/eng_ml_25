@@ -15,9 +15,9 @@ Nesse projetos iremos trabalhar os datasets disponíveis no  [https://www.kaggle
 
 ## Pipelines
 Foram criadas 3 pipelines no Kedro:
-- Preparação dos dados (nomeiei erreneamente como nome_do_pipeline): onde salvei o data_filtered.parquet, removendo NA e filtrando as colunas solicitadas
-- split_train_teste: onde os dados separados em 80% treino e 20% teste
-- treinamento: onde os dados são treinados. 
+- **Preparação dos dados (nomeiei erreneamente como nome_do_pipeline):** onde salvei o data_filtered.parquet, removendo NA e filtrando as colunas solicitadas
+- **split_train_teste:** onde os dados separados em 80% treino e 20% teste
+- **treinamento:** onde os dados são treinados. 
 
 ## Notebooks
 Foram usados apenas para validação dos códigos e analises rápidas. 
