@@ -12,7 +12,7 @@ Link para melhor visualização: https://excalidraw.com/#json=YjIy8DRvEuhH552C0q
 ## Dados
 - **01_raw:** estão os dados brutos que ainda não foram trabalhos
 - **04_feature:** estão os dados filtrados, treino e teste.  
-- **Docs:** documentação
+- Os demais arquivos foram salvos automaticamente pelo MLFLOW. 
 
 ## Pipelines
 Foram criadas 3 pipelines no Kedro:
@@ -25,10 +25,14 @@ Foram usados apenas para validação dos códigos e analises rápidas.
 
 ## MLFLOW
 Após a escolha do modelo de arvore de decisão, servi o modelo com MLFLOW:
+
+**Treianando os modelos**:
 ![Modelos Treinados](https://github.com/Annallisboa/eng_ml_25/blob/main/Modelos%20treinados%20mlflow.png)
 
+**Servindo o modelo**:
 ![Servindo o Modelo na porta 5001](https://github.com/Annallisboa/eng_ml_25/blob/main/modelo%20servido%20na%20porta%205001.png)
 
+**Validando a API**:
 ![Validando a API do Modelo](https://github.com/Annallisboa/eng_ml_25/blob/main/validando%20a%20api%20do%20modelo.png)
 
 ## Streamlit
@@ -62,4 +66,6 @@ Acredito que modelo tenha uma aderencia limitada, já que teve um desempenho lim
 Podemos monitorar a saúde do modelo através do log loss, caso ele seja superior a 0.7, significa que o modelo está perdendo a confiança. Para F_score, abaixo de 0.35 temos um alerta crítico. 
 
 ### Descreva as estratégias reativa e preditiva de retreinamento para o modelo em operação.
+A estrategia reativa é quando você monitora as métricas (aqui no caso o log loss) e retreina o modelo quando há um aumento significativo na métrica (na resposta acima há mais detalhes) indicando que o modelo está desatualizado devido a diversos fatores que devem ser observados nas variáveis.
+Já a estratégia preditiva é quando você "agenda" os retreinamentos com base em análises históricas de acordo com uma regra pré-determinada, como por exemplo, a cada X dias ou quando há a entreda de novos X dados, atencipando possiveis mudanças na perfomance do modelo. 
 
