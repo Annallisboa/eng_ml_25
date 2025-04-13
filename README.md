@@ -6,6 +6,7 @@ A ideia do projeto é validar o conhecimento sobre Engenharia de Machine Learnin
 Nesse projetos iremos trabalhar os datasets disponíveis no  [https://www.kaggle.com/c/kobe-bryant-shot-selection/data]. Utilizei o Kedro para organizar os dados do projeto, realizar os pipelines e integra-lo junto ao MLFLOW
 
 ![Estrutura do projeto](https://github.com/Annallisboa/eng_ml_25/blob/main/diagrama.png)
+Link para melhor visualização: https://excalidraw.com/#json=YjIy8DRvEuhH552C0q0iz,ZpH7kyOTZGcn7hmU8_Fm9w
 
 # Estrutura dos dados no Kedro
 ## Dados
