@@ -25,7 +25,9 @@ Foram usados apenas para validação dos códigos e analises rápidas.
 ## MLFLOW
 Após a escolha do modelo de arvore de decisão, servi o modelo com MLFLOW:
 ![Modelos Treinados](https://github.com/Annallisboa/eng_ml_25/blob/main/Modelos%20treinados%20mlflow.png)
+
 ![Servindo o Modelo na porta 5001](https://github.com/Annallisboa/eng_ml_25/blob/main/modelo%20servido%20na%20porta%205001.png)
+
 ![Validando a API do Modelo](https://github.com/Annallisboa/eng_ml_25/blob/main/validando%20a%20api%20do%20modelo.png)
 
 ## Streamlit
