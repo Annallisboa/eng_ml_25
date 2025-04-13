@@ -37,7 +37,7 @@ A dimensão foi (20285,7)
 ## Quais estratégias ajudam a minimizar os efeitos de viés de dados.
 
 ## Treinamento do modelo: Selecione um dos dois modelos para finalização e justifique sua escolha.
-A escolha do modelo foi a Arvore de Decisão, pois o valor log_loss foram iguais para ambos os modelos (0.6750), sendo assim, olharemos para o F1_score que foi maior que do que na Regressão logistica no valor de 0.461), dessa forma, um F1_score maior significa maior eficácia em identificar corretamente a classe relevante. 
+A escolha do modelo foi a Arvore de Decisão (0.6750), pois o valor log_loss foi um pouco menor que a Regressão Logistica (0.6768), dessa forma com o log loss menor significa que o modelo errou menos e está um pouco mais confiante nas previsões. 
 
 ## Aplicação
 ### O modelo é aderente a essa nova base? O que mudou entre uma base e outra? Justifique.
