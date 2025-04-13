@@ -1,6 +1,7 @@
 # kobe_dataset
 Esse repositório contém o Projeto da disciplina de engenharia de ML do curso de MIT em Inteligência Artificial do Infnet.
 A ideia do projeto é validar o conhecimento sobre Engenharia de Machine Learning, aplicando conceitos de AutoML, MLOps, Visualização de Dados e Estrutura de Projetos. 
+link do git do projeto: https://github.com/Annallisboa/eng_ml_25
 
 ## Prevendo arremessos do Kobe 
 Nesse projetos iremos trabalhar os datasets disponíveis no  [https://www.kaggle.com/c/kobe-bryant-shot-selection/data]. Utilizei o Kedro para organizar os dados do projeto, realizar os pipelines e integra-lo junto ao MLFLOW
